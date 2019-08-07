@@ -1,8 +1,7 @@
-<h1> Home Page</h1>
+<h1> About Page</h1>
 
 
 <?php
-
 /*
 *   DEBUG
 *
@@ -12,7 +11,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-require_once('./autoload.php');
+require_once('../autoload.php');
 
 
 use \Models\User;
